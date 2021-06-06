@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.pad{
+    margin-top:40px;
+}
+.container1 {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+
+.table {
+  width: 100%;
+  border: 1px solid #eeeeee;
+}
+
+.table-header {
+  display: flex;
+  width: 100%;
+  background: #000;
+  padding: 18px 0;
+}
+
+.table-row {
+  display: flex;
+  width: 100%;
+  padding: 18px 0;
+}
+.table-row:nth-of-type(odd) {
+  background: #eeeeee;
+}
+
+.table-data,
+.header__item1 {
+  flex: 1 1 20%;
+  text-align: center;
+}
+
+.header__item1 {
+  text-transform: uppercase;
+}
